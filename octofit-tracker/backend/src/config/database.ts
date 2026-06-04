@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const mongoUri = process.env.MONGO_URI || 'mongodb://localhost:27017/octofit';
+const mongoUri = process.env.MONGO_URI || 'mongodb://localhost:27017/octofit_db';
 
 export const connectDatabase = async (): Promise<void> => {
   try {
